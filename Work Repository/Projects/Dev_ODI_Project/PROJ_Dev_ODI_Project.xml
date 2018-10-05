@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="HXnrOA67HC2JFDm59W2U1A==" exportKeySalt="c45925b8-be9c-43b0-a452-95cd43ca6100" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="gvvZw0y0MxsZHFJlJH5u9Q==" exportKeySalt="0706a9d6-5a99-4165-a939-b290c7e1b0b6" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpProject">
 		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-10-05 05:05:59.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[76eae947-5121-4106-9c23-4d433a4400d3]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-10-05 05:05:59.0]]></Field>
@@ -17,6 +17,38 @@
 	<Field name="ProjectName" type="java.lang.String"><![CDATA[Dev_ODI_Project]]></Field>
 	<Field name="PrvVersion" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpFolder]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[First Folder]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f55840d1-e1ba-4320-8938-bf35846a67ff]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[6c22533234000ee36433c3e5a25ee4ffc6ef9be6]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[First_Folder/FOLD_First_Folder.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Priorities]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[44b0cac0-014f-4708-8719-93af9865b03a]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[c89c242e47477ccb2e2b0da403ab4bfd530a61e1]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Priorities.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Progress]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[51bad3fe-4c05-4ff0-9955-7d44a533efd1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[135898d76c2e0302ca8c3a4e263c4781acd7c022]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Progress.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpGrpState]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Smileys]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[974b341c-5cb3-47f1-9ec0-b450992d1495]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[7667da9d3e50f245caa66a6ac0648835208f653a]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Markers/GRP_STATE_Smileys.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.DwgExportSummary">
 		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
