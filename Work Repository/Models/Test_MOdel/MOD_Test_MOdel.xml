@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="sGVFbW5DiwJThspXb9ntFw==" exportKeySalt="bb45d532-f1b0-4222-86ee-10a6144ab343" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="3US+YIaVI6YbzM4cfc02dw==" exportKeySalt="179371d2-9726-4c56-bdab-95e1930c5751" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpModel">
 		<Field name="AliasLength" type="com.sunopsis.sql.DbInt"><![CDATA[35]]></Field>
 	<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
@@ -11,7 +11,7 @@
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-10-05 05:07:27.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[9faee219-51c7-49d1-8d39-470cac89bfe6]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IndEvoJdbc" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndJrnMethod" type="java.lang.String"><![CDATA[S]]></Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
@@ -59,6 +59,14 @@
 	<Field name="ObjectAKasString" type="java.lang.String"><![CDATA[SUNOPSIS_ENGINE]]></Field>
 	<Field name="Description" type="java.lang.String"><![CDATA[SNP_TECHNO : In-Memory Engine]]></Field>
  <Field name="GlobalId" type="java.lang.String"><![CDATA[e84170c6-66f0-3c4a-8fe7-dbca246e5b24]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpSubModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[Global]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b6348dd9-9ddf-4425-a98d-16cf9c00a23d]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[5ac36ff3abb3e08c4c708731ef4855a8bf8f410e]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Global/SMOD_Global.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.DwgExportSummary">
 		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
